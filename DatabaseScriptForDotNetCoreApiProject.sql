@@ -22,7 +22,7 @@ GO
 CREATE TABLE [dbo].[PayLoad](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
 	[Temperature] [decimal](18, 0) NULL,
-	[Humidity] [int] NOT NULL,
+	[Humidity] [int]  NULL,
 	[Occupancy] [bit] NULL,
  CONSTRAINT [PK_PayLoad] PRIMARY KEY CLUSTERED 
 (
